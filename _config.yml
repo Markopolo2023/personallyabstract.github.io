@@ -1,0 +1,40 @@
+title: Mark Eschbach II
+url: https://personallyabstract.org
+baseurl: ""
+permalink: pretty
+collections:
+  philosophy:
+    output: true
+    permalink: /philosophy/:title
+  projects:
+    output: true
+    permalink: /projects/:title
+defaults:
+  - scope:
+      path: ""
+      type: philosophy
+    values:
+      layout: post
+      author: Mark Eschbach II
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
+      author: Mark Eschbach II
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+markdown: kramdown
+theme: minima
+future: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .idea
+sass:
+  style: compressed
+  sass_dir: _sass
