@@ -1,40 +1,23 @@
-title: Mark Eschbach II
-url: https://personallyabstract.org
-baseurl: ""
-permalink: pretty
-collections:
-  philosophy:
-    output: true
-    permalink: /philosophy/:title
-  projects:
-    output: true
-    permalink: /projects/:title
+# Site settings
+title: Philosophy Blog
+description: A blog exploring philosophical ideas and questions.
+baseurl: "" # e.g., "/blog" if hosted in a subdirectory
+url: "http://localhost:4000" # Replace with your site’s URL
+
+# Build settings
+markdown: kramdown
+theme: minima # Optional; remove if not using a theme
+plugins:
+  - jekyll-feed
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Post settings
 defaults:
   - scope:
       path: ""
-      type: philosophy
+      type: posts
     values:
       layout: post
-      author: Mark Eschbach II
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: post
-      author: Mark Eschbach II
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-markdown: kramdown
-theme: minima
-future: true
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE
-  - .idea
-sass:
-  style: compressed
-  sass_dir: _sass
+      permalink: /posts/:title/
