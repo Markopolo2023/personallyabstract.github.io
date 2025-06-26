@@ -1,23 +1,16 @@
-# Site settings
 title: Philosophy Blog
-description: A blog exploring philosophical ideas and questions.
-baseurl: "" # e.g., "/blog" if hosted in a subdirectory
-url: "http://localhost:4000" # Replace with your site’s URL
-
-# Build settings
-markdown: kramdown
-theme: minima # Optional; remove if not using a theme
-plugins:
-  - jekyll-feed
-
-# Permalinks
-permalink: /:year/:month/:day/:title/
-
-# Post settings
+description: A blog exploring philosophical ideas
+baseurl: ""
+url: "https://markopolo2023.github.io"
+collections:
+  philosophy:
+    output: true
+    permalink: /philosophy/:title
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: philosophy
     values:
       layout: post
-      permalink: /posts/:title/
+plugins:
+  - jekyll-feed
