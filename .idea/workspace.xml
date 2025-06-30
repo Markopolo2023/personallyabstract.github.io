@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="964880e1-5fb4-4bb4-93d7-db131cd36601" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/meaning-of-life.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/meaning.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/project1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/philosophy/post1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-06-24-now-is-the-time.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/philosophy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/philosophy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MD Eschbach/Desktop/thingsispendmytimeone/Coding/Projects/github_pages&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/MD Eschbach/Desktop/thingsispendmytimeone/Coding/Projects/github_pages/philosophy",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\philosophy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\philosophy\passets" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\assets\images" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\_layouts" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\personallyabstract.github.io\_layouts" />
