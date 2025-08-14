@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="964880e1-5fb4-4bb4-93d7-db131cd36601" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data-analysis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/philosophy/philosophy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/philosophy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/philosophy/philosophy.html" beforeDir="false" afterPath="$PROJECT_DIR$/philosophy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/project1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +63,11 @@
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\philosophy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\projects" />
+      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\philosophy\passets" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\assets\images" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\_layouts" />
-      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\personallyabstract.github.io\_layouts" />
     </key>
   </component>
   <component name="SharedIndexes">
