@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personally Abstract - Mark Eschbach II</title>
+    <title>Data Analysis - Personally Abstract</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet">
     <style>
         * {
@@ -14,8 +14,7 @@
         body {
             font-family: 'Inter', Arial, sans-serif;
             color: #fff;
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100vh;
         }
         .background {
             position: fixed;
@@ -23,10 +22,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
-            background-size: cover;
-            background-position: center;
-            filter: grayscale(100%);
+            background: linear-gradient(to bottom, #ffffff, #000000);
             z-index: -1;
         }
         .navbar {
@@ -112,6 +108,69 @@
         .dropdown-content a:hover {
             background-color: rgba(255, 255, 255, 0.15);
         }
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .content h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            color: #e0e0e0;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+        }
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+        }
+        .portfolio-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .portfolio-card p {
+            font-size: 1em;
+            color: #d0d0d0;
+            line-height: 1.5;
+        }
+        .portfolio-card .tech {
+            font-size: 0.9em;
+            color: #a0a0a0;
+            margin-top: 10px;
+        }
+        .portfolio-card a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .portfolio-card a:hover {
+            color: #0077cc;
+        }
+        .portfolio-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
         @media (max-width: 768px) {
             .hamburger {
                 display: flex;
@@ -139,6 +198,9 @@
                 box-shadow: none;
                 background-color: rgba(0, 0, 0, 0.95);
                 border-radius: 5px;
+            }
+            .portfolio-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -170,6 +232,33 @@
             </li>
         </ul>
     </nav>
+    <div class="content">
+        <h1>Data Analysis Portfolio</h1>
+        <p>Showcasing my expertise in uncovering insights and driving decisions through data analysis.</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <img src="https://via.placeholder.com/300x150?text=Churn+Analysis+Chart" alt="Customer Churn Chart">
+                <h3>Customer Churn Analysis</h3>
+                <p>Analyzed customer data to identify key factors contributing to churn, enabling targeted retention strategies.</p>
+                <p class="tech">Technologies: Python, Pandas, Scikit-learn, Tableau</p>
+                <a href="/notebooks/churn-analysis.html">View Full Notebook</a>
+            </div>
+            <div class="portfolio-card">
+                <img src="https://via.placeholder.com/300x150?text=Sales+Forecast+Chart" alt="Sales Forecast Chart">
+                <h3>Sales Forecasting Model</h3>
+                <p>Developed a time-series model to predict future sales, improving inventory management efficiency.</p>
+                <p class="tech">Technologies: R, ARIMA, SQL, Power BI</p>
+                <a href="/notebooks/sales-forecast.html">View Full Notebook</a>
+            </div>
+            <div class="portfolio-card">
+                <img src="https://via.placeholder.com/300x150?text=Sentiment+Dashboard" alt="Sentiment Analysis Dashboard">
+                <h3>Sentiment Analysis Dashboard</h3>
+                <p>Built a dashboard to analyze social media sentiment, providing actionable insights for brand strategy.</p>
+                <p class="tech">Technologies: Python, NLTK, D3.js, PostgreSQL</p>
+                <a href="/notebooks/sentiment-analysis.html">View Full Notebook</a>
+            </div>
+        </div>
+    </div>
     <script>
         function toggleMenu() {
             const menu = document.querySelector('.nav-menu');

@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="964880e1-5fb4-4bb4-93d7-db131cd36601" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data-analysis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/philosophy/philosophy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/philosophy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/philosophy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/philosophy/passets/Post 1 Image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/philosophy/passets/post1-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/philosophy/post1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/philosophy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/project1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,16 +52,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/MD Eschbach/Desktop/thingsispendmytimeone/Coding/Projects/github_pages/philosophy",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "C:/Users/MD Eschbach/Desktop/thingsispendmytimeone/Coding/Projects/github_pages",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\philosophy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
