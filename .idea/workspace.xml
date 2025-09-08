@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="964880e1-5fb4-4bb4-93d7-db131cd36601" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/data-analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/data-analysis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/project3/doc3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/project3/project3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/project2/project2.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project2/project2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,29 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MD Eschbach/Desktop/thingsispendmytimeone/Coding/Projects/agent_pipeline&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/MD Eschbach/Desktop/thingsispendmytimeone/Coding/Projects/github_pages/projects/project3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\projects\project3" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\projects\project2" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\philosophy" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\projects\project3" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\data_assets" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\philosophy" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\projects\project1" />
       <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\assets\images" />
-      <recent name="C:\Users\MD Eschbach\Desktop\thingsispendmytimeone\Coding\Projects\github_pages\projects" />
     </key>
   </component>
   <component name="SharedIndexes">
