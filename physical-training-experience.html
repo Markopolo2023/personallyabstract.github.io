@@ -14,6 +14,122 @@
             padding: 20px;
             background-color: #f9f9f9;
         }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(5px);
+            padding: 12px 20px;
+            margin-top: -20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15), 0 8px 40px rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+        .navbar .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.6em;
+            font-weight: 400;
+            color: #fff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .navbar .logo:hover {
+            color: #e0e0e0;
+            transform: scale(1.05);
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 2px 0;
+            transition: all 0.3s ease;
+        }
+        .nav-menu {
+            display: flex;
+            list-style: none;
+        }
+        .nav-menu li {
+            position: relative;
+            margin-left: 20px;
+        }
+        .nav-menu a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .nav-menu a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #e0e0e0;
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+            min-width: 150px;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            border-radius: 5px;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.9);
+                backdrop-filter: blur(5px);
+                flex-direction: column;
+                padding: 10px;
+                box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+            }
+            .nav-menu.active {
+                display: flex;
+            }
+            .nav-menu li {
+                margin: 10px 0;
+            }
+            .dropdown-content {
+                position: static;
+                box-shadow: none;
+                background-color: rgba(0, 0, 0, 0.95);
+                border-radius: 5px;
+            }
+        }
         header {
             text-align: center;
             border-bottom: 2px solid #007bff;
@@ -64,6 +180,34 @@
     </style>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="logo">Mark Eschbach II</div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu">
+            <li class="dropdown">
+                <a href="#">Blogs</a>
+                <div class="dropdown-content">
+                    <a href="/philosophy.html">Philosophy</a>
+                    <a href="/projects.html">Projects</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Professional</a>
+                <div class="dropdown-content">
+                    <a href="https://www.approachable.fit/" target="_blank">Approachable Fitness</a>
+                    <a href="/data-analysis.html">Data Analysis</a>
+                    <a href="/science-experience.html">Science Experience</a>
+                    <a href="/code-data-experience.html">Code and Data Experience</a>
+                    <a href="/engineering-experience.html">Engineering Experience</a>
+                    <a href="/physical-training-experience.html">Physical Training Experience</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
     <header>
         <h1>Mark Eschbach</h1>
         <div class="contact-info">
@@ -137,5 +281,11 @@
         <h2>Jiu Jitsu</h2>
         <div class="blank-section">4-stripe blue belt under Jack McVicker, multiple competition medals for white and blue belt, gi and no gi.</div>
     </section>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-menu');
+            menu.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
