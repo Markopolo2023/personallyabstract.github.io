@@ -41,9 +41,11 @@ defaults:
   - scope: { path: "", type: writing }
     values: { layout: article, section: writing, image: /assets/img/og-default.jpg }
   - scope: { path: "", type: projects }
-    values: { layout: article, section: projects }
+    values: { layout: article, section: projects }   # projects set their own cover; none = code thumbnail
   - scope: { path: "" }
-    values: { layout: page, image: /assets/img/og-default.jpg }
+    values: { layout: page }
+  - scope: { path: "", type: pages }
+    values: { image: /assets/img/og-default.jpg }
 
 plugins:
   - jekyll-feed
