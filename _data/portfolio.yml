@@ -59,6 +59,7 @@
   contain: true
   tags: [Excel, OneDrive]
   year: 2023
+  note: Spreadsheet available on request.
   links:
     - { label: Project overview, url: "https://github.com/Markopolo2023/personallyabstract.github.io/blob/main/data_assets/ipy_nb/dsr.ipynb" }
 

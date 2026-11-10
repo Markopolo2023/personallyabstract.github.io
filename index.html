@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Mark Eschbach II — Chemist · Engineer · Developer · Founder
-description: Chemist, engineer, software developer and co-founder of Epistemion. Plasma chemistry, water-treatment data systems, agentic AI, DIY builds and philosophy.
+description: Multidisciplinary chemist, engineer, developer and co-founder of Epistemion — curious across many fields, a builder at heart.
 ---
 {%- assign featured = site.data.portfolio | where: "featured", true -%}
 {%- assign writing = site.writing | sort: "date" | reverse -%}
-{%- assign builds = site.projects | sort: "date" | reverse -%}
-{%- assign recent = writing | concat: builds | sort: "date" | reverse -%}
 
 <section class="hero">
   <div class="wrap hero-grid">
@@ -16,7 +14,7 @@ description: Chemist, engineer, software developer and co-founder of Epistemion.
       <ul class="roles" aria-label="Roles">
         <li>Chemist</li><li>Engineer</li><li>Developer</li><li>Founder</li>
       </ul>
-      <p class="lede">I build things where science meets software — plasma reactors, data platforms for statewide water treatment, and governed AI systems at <a href="/epistemion/">Epistemion</a>. Off the clock: philosophy, jiu-jitsu, and saunas made from scrap wood.</p>
+      <p class="lede">I’m multidisciplinary and cross-functional by nature — chemistry, plasma physics, software, AI, philosophy, fitness — but a builder at heart. Plasma reactors, statewide water-data platforms, governed AI at <a href="/epistemion/">Epistemion</a>, and the occasional sauna made from scrap wood.</p>
       <div class="btn-row">
         <a class="btn" href="/resume/">View résumé</a>
         <a class="btn btn-ghost" href="/epistemion/">About Epistemion</a>
@@ -67,9 +65,9 @@ description: Chemist, engineer, software developer and co-founder of Epistemion.
 
 <section class="section">
   <div class="wrap">
-    <div class="section-head"><h2>Latest writing &amp; builds</h2><a href="/writing/">All writing →</a></div>
+    <div class="section-head"><h2>Writing Corner</h2><a href="/writing/">All essays →</a></div>
     <ul class="post-list">
-      {%- for d in recent limit: 5 -%}
+      {%- for d in writing limit: 4 -%}
       <li><a href="{{ d.url }}">
         <time class="post-date" datetime="{{ d.date | date_to_xmlschema }}">{{ d.date | date: "%b %Y" }}</time>
         <span class="post-title">{{ d.title }}</span>

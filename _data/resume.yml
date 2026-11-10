@@ -7,10 +7,10 @@ views:
     label: Everything
     title: Chemist · Engineer · Developer · Founder
     summary: >-
-      Scientist and engineer with 10+ years turning laboratory science into working systems — plasma
-      reactors, a DOE-funded CO₂-capture pilot lab, and enterprise data platforms for statewide water
-      treatment. Co-founder of Epistemion, an industrial-automation and agentic-AI company. I sit where
-      chemistry, hardware and software meet, and I like shipping things people actually use.
+      Multidisciplinary, cross-functional scientist, engineer and developer — curious across chemistry,
+      physics, software, AI, philosophy and fitness, but a builder at heart. 10+ years turning ideas into
+      working systems: plasma reactors, a DOE-funded CO₂-capture pilot lab, and enterprise data platforms
+      for statewide water treatment. Co-founder of Epistemion, an industrial-automation and agentic-AI company.
   - id: science
     label: Science
     title: Analytical & Plasma Chemist
@@ -39,9 +39,9 @@ views:
     label: Fitness
     title: Personal Trainer & Coach
     summary: >-
-      Founder of Approachable Fitness (2019–2026), a client-centered personal training business that
+      Founded and ran Approachable Fitness (2019–2026, now closed), a client-centered personal training business that
       helped people of every background and fitness level reach goals “big” or “small.” NASM-certified
-      trainer, Brazilian jiu-jitsu competitor and obstacle-course racer.
+      trainer, purple belt in Brazilian jiu-jitsu and obstacle-course racer.
 
 highlights:
   - { value: "10+", label: "years in research & applied science", tracks: [science, engineering, data] }
@@ -50,7 +50,7 @@ highlights:
   - { value: "DOE", label: "funded CO₂-capture pilot lab commissioned", tracks: [science, engineering] }
   - { value: "3", label: "peer-reviewed publications", tracks: [science] }
   - { value: "7 yrs", label: "running a personal training business", tracks: [fitness] }
-  - { value: "Blue", label: "belt, 4 stripes — Brazilian jiu-jitsu", tracks: [fitness] }
+  - { value: "Purple", label: "belt — Brazilian jiu-jitsu", tracks: [fitness] }
   - { value: "2025", label: "co-founded Epistemion LLC", tracks: [data, engineering, fitness] }
 
 experience:
@@ -85,6 +85,8 @@ experience:
       - text: Architect production AI-integrated systems — multi-agent architectures, governed build/validation pipelines and automation tools for research and enterprise clients.
         tracks: [data, engineering]
       - text: Run DevOps and infrastructure, including a distributed Mac mini compute cluster, Git-based CI/CD and local AI compute environments.
+        tracks: [data, engineering]
+      - text: Acting lead developer — set technical direction, architecture and code standards across client and internal products.
         tracks: [data, engineering]
       - text: Acting CFO — financial operations, capital structure and financial modeling; lead business development and strategic partnerships, including a joint-venture AI-agent product.
         tracks: [data, fitness]
@@ -124,7 +126,7 @@ experience:
         tracks: [science, engineering, data]
 
   - title: Founder & Personal Trainer
-    org: Approachable Fitness
+    org: Approachable Fitness (closed 2026)
     location: Urbana-Champaign, IL
     start: Feb 2019
     end: Mar 2026
@@ -252,7 +254,7 @@ certifications:
   - { name: CPR & AED, org: ASTI, year: 2023–2025, tracks: [fitness] }
 
 athletics:
-  - { name: Brazilian jiu-jitsu, detail: "4-stripe blue belt under Jack McVicker; multiple competition medals, gi and no-gi" }
+  - { name: Brazilian jiu-jitsu, detail: "Purple belt under Jack McVicker; multiple competition medals, gi and no-gi" }
   - { name: Spartan Race, detail: "Beast (2020), Sprint (2025)" }
   - { name: Savage Race, detail: "1–2 races every year since 2019; 2024 Syndicate medal" }
 

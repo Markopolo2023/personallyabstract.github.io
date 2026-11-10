@@ -19,7 +19,7 @@ It didn't work well at first. The first version leaked heat, mice moved into the
 
 - **Type:** two-person outdoor dry sauna
 - **Footprint:** 4 × 6 ft, about 5½ ft tall, on partially buried cinder blocks
-- **Heater:** 3 kW electric, on one 40 A breaker
+- **Heater:** small 120 V electric unit (about 2 kW), on its own 40 A breaker
 - **Power run:** about 75 ft of buried conduit
 - **Total spend:** about $450, heater and wiring included (basic kits start at $2,000+)
 - **Performance:** 180°F reliably, about 30 minutes to reach temperature
@@ -65,7 +65,7 @@ I only paid for things that mattered for safety or function:
 - Nails and screws
 - Outdoor LED lights
 - Wiring and conduit, to run power safely to the sauna
-- A 3 kW electric sauna heater, an affordable model rated for small spaces
+- A small 120 V electric sauna heater (about 2 kW), an affordable model rated for small spaces
 
 All of that, heater included, came to about **$450**.
 
@@ -86,7 +86,7 @@ On the outside, I fixed pallet boards in an overlapping siding pattern, which gi
 
 ### Power: 75 feet of trench
 
-I went with a small 3 kW heater from Amazon, which needed one 40 A breaker. The sauna is a long way from the electrical box, so the sensible option was to bury a line in conduit.
+I went with a small 120-volt heater from Amazon (about 2 kW) on its own 40 A breaker. The sauna is a long way from the electrical box, so the sensible option was to bury a line in conduit.
 
 I dug a fairly deep trench about **75 feet long**, ran the wire through the conduit, glued the conduit together and wired up both ends. The trench was the hard part because I kept hitting roots. Everything else went smoothly, and the run looks clean and is watertight.
 

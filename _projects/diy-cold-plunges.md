@@ -107,7 +107,7 @@ With about **150 gallons** of water and the air-gap insulation, it stayed below 
 
 ### Winter and salt water
 
-Winter brought a new problem: freezing water could damage the coils. Starting in late summer, I drained the crate and switched to a **50-gallon barrel of salt water**, since salt lowers the freezing point.
+Winter brought a new problem: freezing water could damage the coils. Starting in late summer, I drained the crate and switched to a **50-gallon barrel of heavily salted water**. Enough dissolved salt pushes the freezing point far below 32°F, so the water stays liquid well below normal freezing.
 
 I acclimated gradually to colder and colder water, and by the end the barrel let me plunge in **13.5°F water for 2 minutes**. That showed me how much consistent exposure builds tolerance.
 

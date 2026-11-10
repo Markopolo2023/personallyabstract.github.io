@@ -5,6 +5,7 @@
     <span class="card-meta">{{ it.year }}</span>
     <h3>{{ it.title }}</h3>
     <p>{{ it.summary }}</p>
+    {%- if it.note %}<p class="muted small"><em>{{ it.note }}</em></p>{% endif %}
     <ul class="tags">{% for t in it.tags %}<li class="tag">{{ t }}</li>{% endfor %}</ul>
     <div class="card-links">{% for l in it.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</div>
   </div>
