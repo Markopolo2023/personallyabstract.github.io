@@ -57,7 +57,7 @@
       "description": {{ page.description | default: page.subtitle | jsonify }},
       "datePublished": "{{ page.date | date_to_xmlschema }}",
       "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-      "image": "{{ page.image | absolute_url }}",
+      "image": "{{ page.image | default: site.image | absolute_url }}",
       "keywords": {{ page.tags | join: ", " | jsonify }},
       "articleSection": {{ page.category | jsonify }},
       "wordCount": {{ content | strip_html | number_of_words }},
