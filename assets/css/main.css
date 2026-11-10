@@ -346,8 +346,8 @@ p { margin: 0 0 1em; }
 .summary { font-family: var(--font-serif); font-size: 1.3rem; line-height: 1.55; color: var(--text); }
 .highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .highlight { border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; background: var(--bg-elev); }
-.highlight strong { display: block; font: 500 1.9rem/1.1 var(--font-serif); color: var(--accent); margin-bottom: .25rem; }
-.highlight span { font-size: .88rem; color: var(--text-2); }
+.highlight strong { display: block; font: 500 1.45rem/1.15 var(--font-serif); color: var(--accent); margin-bottom: .3rem; white-space: nowrap; letter-spacing: -.01em; }
+.highlight span { display: block; font-size: .84rem; line-height: 1.45; color: var(--text-2); }
 @media (max-width: 640px) { .highlights { grid-template-columns: 1fr; } }
 
 .timeline { list-style: none; padding: 0; margin: 0; position: relative; }

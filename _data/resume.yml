@@ -50,10 +50,10 @@ highlights:
   - { value: "2025", label: "co-founded Epistemion, an automation & agentic-AI firm", views: [all] }
   - { value: "8", label: "papers, manuscripts & talks — from Biochemistry to AI for water", views: [all] }
   # Science
-  - { value: "3 + 1", label: "peer-reviewed papers (Plasma Chem. Plasma Process., Biochemistry, JCI Insight) + 1 in prep", views: [science] }
+  - { value: "3 + 1", label: "peer-reviewed papers published, plus 1 manuscript in prep", views: [science] }
   - { value: "5%", label: "higher CO₂→CO conversion from more efficient reactor design", views: [science] }
   - { value: "C-SPARK", label: "software I built to map plasma surface-chemistry reactions", views: [science] }
-  - { value: "DOE", label: "pilot: led the team that established the testing lab, troubleshot equipment and got the pilot up and running", views: [science] }
+  - { value: "DOE pilot", label: "led the team that established the testing lab, troubleshot equipment and got it up and running", views: [science] }
   # Engineering
   - { value: "43+", label: "water-treatment sites and facilities served in the field", views: [engineering] }
   - { value: "5%", label: "conversion gain from redesigning plasma reactors", views: [engineering] }
@@ -62,7 +62,7 @@ highlights:
   # Data & software
   - { value: "50%+", label: "faster reporting with the statewide IWT-DSR app", views: [data] }
   - { value: "25–50%", label: "less time per site visit for six field chemists", views: [data] }
-  - { value: "4", label: "apps built — WaterLog DSR live; Adversaria ELN, Cozy Prose & Frostfire coming soon", views: [data] }
+  - { value: "4", label: "apps built — WaterLog DSR live, three more coming soon", views: [data] }
   - { value: "15–25%", label: "faster discovery reported by Adversaria ELN research users", views: [data] }
   # Fitness
   - { value: "13–70+", label: "client ages coached over seven years", views: [fitness] }
