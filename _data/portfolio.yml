@@ -1,4 +1,62 @@
 # Data & software portfolio. `featured: true` items also appear on the homepage.
+# `group: product` = shipped apps (shown first under "Apps & products").
+
+- title: WaterLog DSR
+  group: product
+  org: Epistemion
+  summary: Field-service platform for commercial water-treatment companies — an offline-first mobile app for techs, web tools for managers, and an invite-only portal for facility customers. Routes, tests, doses, photos, signatures and Legionella compliance.
+  note: Currently in a client pilot.
+  image: /assets/img/portfolio/waterlog-dsr.jpg
+  wide: true
+  tags: [React, TypeScript, Flutter, Node.js, PostgreSQL, Cloud Run]
+  year: 2026
+  links:
+    - { label: waterlog-dsr.com, url: "https://waterlog-dsr.com/" }
+
+- title: Adversaria ELN
+  group: product
+  org: Epistemion
+  summary: Block-based electronic lab notebook for solo researchers and small labs — custom blocks, scientific templates, voice dictation and an AI companion that reviews an experiment or proposes the next one. Users report 15–25% faster discovery.
+  image: /assets/img/portfolio/adversaria-eln.jpg
+  wide: true
+  tags: [React, Flutter, Firebase, AI]
+  year: 2026
+  links:
+    - { label: Open Adversaria, url: "https://adversaria-eln.web.app/" }
+
+- title: Cozy Prose
+  group: product
+  org: Epistemion
+  summary: A warm, quiet writing app for books, articles and journals — offline sync, voice dictation and inline AI writing help you can accept or reformulate.
+  image: /assets/img/portfolio/cozy-prose.jpg
+  wide: true
+  tags: [React, Flutter, Firebase, AI]
+  year: 2026
+  links:
+    - { label: Try Cozy Prose, url: "https://cozypros.web.app/" }
+
+- title: Frostfire
+  group: product
+  org: Epistemion
+  summary: Contrast-therapy tracker for cold plunge and sauna sessions — log hot and cold cycles and see the trends, on phone and watch. Built by someone who plunges in a homemade barrel.
+  image: /assets/img/portfolio/frostfire.jpg
+  wide: true
+  tags: [Flutter, Riverpod, Firebase, AI]
+  year: 2026
+  links:
+    - { label: Frostfire site, url: "https://frostfire-prod.web.app/" }
+
+- title: ChopChopGo
+  group: product
+  org: Epistemion
+  summary: Recipe manager that imports recipes from around the web, organizes them and makes them easy to share — on iOS, Android, web and desktop.
+  image: /assets/img/portfolio/chopchopgo.jpg
+  tags: [Flutter, Dart, BLoC, Firebase]
+  year: 2025
+  links:
+    - { label: chopchopgo.com, url: "https://chopchopgo.com/" }
+    - { label: App Store, url: "https://apps.apple.com/us/app/chopchopgo/id6753325566" }
+    - { label: Google Play, url: "https://play.google.com/store/apps/details?id=com.epistemion.chopchopgo" }
 - title: IWT-DSR — Water Treatment Reporting App
   summary: Enterprise-grade, multi-platform app that replaced paper site reports for a statewide water-treatment program — field data capture, reporting and analytics in one place. Cut site-visit reporting time by 50%.
   image: /assets/img/portfolio/dsr_image4.jpg

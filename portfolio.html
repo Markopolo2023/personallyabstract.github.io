@@ -1,14 +1,23 @@
 ---
-title: Data & Software Portfolio
+title: Portfolio
 eyebrow: Portfolio
-lede: Tools I’ve built to turn messy real-world data into decisions — from field apps and research databases to scientific simulations.
+lede: Apps I’ve shipped and tools I’ve built to turn messy real-world data into decisions — from field-service platforms and lab notebooks to research databases and scientific simulations.
 description: Data and software portfolio of Mark Eschbach II — water-treatment apps and databases, plasma simulations, dashboards and scientific analysis tools.
 permalink: /portfolio/
 redirect_from: [/data-analysis.html]
 ---
-<div class="card-grid">
-  {%- for item in site.data.portfolio -%}
-    {%- include portfolio-card.html item=item -%}
-  {%- endfor -%}
-</div>
+{%- assign products = site.data.portfolio | where: "group", "product" -%}
+{%- assign tools = site.data.portfolio | where_exp: "i", "i.group != 'product'" -%}
+<section class="r-section">
+  <h2 class="small-head">Apps &amp; products · built with Epistemion</h2>
+  <div class="card-grid">
+    {%- for item in products -%}{%- include portfolio-card.html item=item -%}{%- endfor -%}
+  </div>
+</section>
+<section class="r-section">
+  <h2 class="small-head">Data, research &amp; internal tools</h2>
+  <div class="card-grid">
+    {%- for item in tools -%}{%- include portfolio-card.html item=item -%}{%- endfor -%}
+  </div>
+</section>
 <p class="muted" style="margin-top:2rem">More on <a href="{{ site.author.github }}" target="_blank" rel="noopener">GitHub ↗</a></p>

@@ -53,16 +53,16 @@ highlights:
   - { value: "3 + 1", label: "peer-reviewed papers (Plasma Chem. Plasma Process., Biochemistry, JCI Insight) + 1 in prep", views: [science] }
   - { value: "5%", label: "higher CO₂→CO conversion from more efficient reactor design", views: [science] }
   - { value: "C-SPARK", label: "software I built to map plasma surface-chemistry reactions", views: [science] }
-  - { value: "DOE", label: "funded CO₂-capture pilot lab commissioned at a power plant", views: [science] }
+  - { value: "DOE", label: "pilot: led the team that established the testing lab, troubleshot equipment and got the pilot up and running", views: [science] }
   # Engineering
   - { value: "43+", label: "water-treatment sites and facilities served in the field", views: [engineering] }
   - { value: "5%", label: "conversion gain from redesigning plasma reactors", views: [engineering] }
   - { value: "50 yrs", label: "of handwritten & legacy water records digitized into one database", views: [engineering] }
-  - { value: "NETL", label: "pulsed Joule-heating system developed for a DOE national-lab project", views: [engineering] }
+  - { value: "Joule", label: "heating reactor & pulsed-power circuitry built for an NETL project", views: [engineering] }
   # Data & software
   - { value: "50%+", label: "faster reporting with the statewide IWT-DSR app", views: [data] }
   - { value: "25–50%", label: "less time per site visit for six field chemists", views: [data] }
-  - { value: "3", label: "Epistemion products shipped — WaterLog DSR, Adversaria ELN, Chop Chop Go", views: [data] }
+  - { value: "5", label: "Epistemion apps launched — WaterLog DSR, Adversaria ELN, Cozy Prose, Frostfire, ChopChopGo", views: [data] }
   - { value: "15–25%", label: "faster discovery reported by Adversaria ELN research users", views: [data] }
   # Fitness
   - { value: "13–70+", label: "client ages coached over seven years", views: [fitness] }
@@ -103,11 +103,11 @@ experience:
     location: Champaign, IL
     start: Sep 2025
     end: Present
-    tracks: [data, engineering, science, fitness]
+    tracks: [data, engineering, science]
     bullets:
       - text: Co-founded an industrial-automation and agentic-AI firm delivering control-system software, dashboards, custom web/mobile apps and technical consulting to clients nationwide.
-        tracks: [data, engineering, science, fitness]
-      - text: Shipped three products — WaterLog DSR (in a client pilot), Adversaria ELN (an electronic lab notebook whose independent-researcher users report 15–25% faster discovery) and Chop Chop Go (a consumer app).
+        tracks: [data, engineering, science]
+      - text: Built and launched five apps — WaterLog DSR (field-service platform, in a client pilot), Adversaria ELN (lab notebook; users report 15–25% faster discovery), Cozy Prose (writing), Frostfire (contrast-therapy tracking) and ChopChopGo (recipes, on both app stores).
         tracks: [data, engineering]
       - text: Architect production AI-integrated systems — multi-agent architectures, governed build/validation pipelines and automation tools for research and enterprise clients.
         tracks: [data, engineering]
@@ -116,7 +116,7 @@ experience:
       - text: Acting lead developer — set technical direction, architecture and code standards across client and internal products.
         tracks: [data, engineering]
       - text: Acting CFO — financial operations, capital structure and financial modeling; lead business development and strategic partnerships, including a joint-venture AI-agent product.
-        tracks: [data, fitness]
+        tracks: [data]
 
   - title: Consulting Specialist, Analytical Chemistry & Engineering
     org: University of Illinois Urbana-Champaign

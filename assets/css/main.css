@@ -481,3 +481,5 @@ p { margin: 0 0 1em; }
 .faq dt { font-family: var(--font-serif); font-size: 1.2rem; margin-bottom: .4rem; }
 .faq dd { margin: 0; color: var(--text-2); font-size: .97rem; }
 @media (max-width: 400px) { .faq { grid-template-columns: 1fr; } }
+.service h3 a { text-decoration: none; }
+.card-media.wide { aspect-ratio: 1200 / 630; }
