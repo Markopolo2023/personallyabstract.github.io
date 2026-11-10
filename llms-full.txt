@@ -1,0 +1,41 @@
+---
+layout: null
+sitemap: false
+---
+{%- assign r = site.data.resume -%}
+# Mark Eschbach II — full text
+
+> {{ r.views[0].summary }}
+
+## Experience
+{% for j in r.experience %}
+### {{ j.title }} — {{ j.org }} ({{ j.location }}, {{ j.start }} – {{ j.end }})
+{% for b in j.bullets %}- {{ b.text }}
+{% endfor %}{% endfor %}
+## Education
+{% for e in r.education %}- {{ e.degree }}, {{ e.school }}{% if e.years %} ({{ e.years }}){% endif %}
+{% endfor %}
+## Publications & talks
+{% for p in r.publications %}- {{ p.title }}. {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}.
+{% endfor %}{% for t in r.talks %}- Talk: {{ t.title }}. {{ t.venue }}, {{ t.year }}.
+{% endfor %}
+## Certifications
+{% for c in r.certifications %}- {{ c.name }} — {{ c.org }} ({{ c.year }})
+{% endfor %}
+{% assign docs = site.writing | sort: "date" | reverse %}{% for d in docs %}
+---
+
+# {{ d.title }}
+{{ d.subtitle }}
+By Mark Eschbach II · {{ d.date | date: "%B %-d, %Y" }} · {{ d.url | absolute_url }}
+
+{{ d.content | strip_html }}
+{% endfor %}{% assign docs = site.projects | sort: "order" %}{% for d in docs %}
+---
+
+# {{ d.title }}
+{{ d.subtitle }}
+By Mark Eschbach II · {{ d.date | date: "%B %-d, %Y" }} · {{ d.url | absolute_url }}
+
+{{ d.content | strip_html }}
+{% endfor %}

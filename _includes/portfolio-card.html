@@ -1,6 +1,6 @@
 {%- assign it = include.item -%}
 <article class="card">
-  <div class="card-media{% if it.contain %} contain{% endif %}"><img src="{{ it.image | relative_url }}" alt="" loading="lazy"></div>
+  <div class="card-media{% if it.contain %} contain{% endif %}"><img src="{{ it.image | relative_url }}" alt="{{ it.title | escape }}" loading="lazy"></div>
   <div class="card-body">
     <span class="card-meta">{{ it.year }}</span>
     <h3>{{ it.title }}</h3>

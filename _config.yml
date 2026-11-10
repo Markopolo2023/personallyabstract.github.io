@@ -19,6 +19,8 @@ social:
     - https://www.linkedin.com/in/mark-eschbach-648909ab
     - https://github.com/Markopolo2023
 image: /assets/img/og-default.jpg
+twitter:
+  card: summary_large_image
 
 markdown: kramdown
 kramdown:
@@ -37,11 +39,11 @@ collections:
 
 defaults:
   - scope: { path: "", type: writing }
-    values: { layout: article, section: writing }
+    values: { layout: article, section: writing, image: /assets/img/og-default.jpg }
   - scope: { path: "", type: projects }
     values: { layout: article, section: projects }
   - scope: { path: "" }
-    values: { layout: page }
+    values: { layout: page, image: /assets/img/og-default.jpg }
 
 plugins:
   - jekyll-feed

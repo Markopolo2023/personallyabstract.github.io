@@ -1,0 +1,32 @@
+---
+layout: null
+sitemap: false
+---
+# Mark Eschbach II
+
+> Multidisciplinary chemist, engineer and software developer in Champaign, Illinois, and co-founder of Epistemion LLC (industrial automation and agentic AI). Curious across many fields, a builder at heart.
+
+{% for f in site.data.faq %}**{{ f.q }}** {{ f.a }}
+
+{% endfor %}
+## Key pages
+- [Home]({{ "/" | absolute_url }}): overview, current roles, selected work
+- [Résumé]({{ "/resume/" | absolute_url }}): full experience, filterable by science, engineering, data & software, fitness
+- [Epistemion]({{ "/epistemion/" | absolute_url }}): the company Mark co-founded — services, founders, how they work
+- [Portfolio]({{ "/portfolio/" | absolute_url }}): data and software projects
+- [Full text for LLMs]({{ "/llms-full.txt" | absolute_url }}): résumé and every article in one plain-text file
+
+## Writing
+{% assign docs = site.writing | sort: "date" | reverse %}{% for d in docs %}- [{{ d.title }}]({{ d.url | absolute_url }}) ({{ d.date | date: "%Y-%m-%d" }}): {{ d.subtitle }}
+{% endfor %}
+## Projects
+{% assign docs = site.projects | sort: "order" %}{% for d in docs %}- [{{ d.title }}]({{ d.url | absolute_url }}) ({{ d.date | date: "%Y-%m-%d" }}): {{ d.subtitle }}
+{% endfor %}
+## Portfolio
+{% for p in site.data.portfolio %}- {{ p.title }} ({{ p.year }}): {{ p.summary }}{% if p.links[0] %} — {{ p.links[0].url }}{% endif %}
+{% endfor %}
+## Contact
+- LinkedIn: {{ site.author.linkedin }}
+- GitHub: {{ site.author.github }}
+- Company: https://epistemion.com
+- Email and phone: see {{ "/resume/" | absolute_url }}

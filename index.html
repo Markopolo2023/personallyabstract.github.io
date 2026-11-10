@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Mark Eschbach II — Chemist · Engineer · Developer · Founder
 description: Multidisciplinary chemist, engineer, developer and co-founder of Epistemion — curious across many fields, a builder at heart.
 ---
 {%- assign featured = site.data.portfolio | where: "featured", true -%}
@@ -76,6 +75,17 @@ description: Multidisciplinary chemist, engineer, developer and co-founder of Ep
       </a></li>
       {%- endfor -%}
     </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="faq-h">Quick answers</h2></div>
+    <dl class="faq">
+      {%- for f in site.data.faq %}
+      <div class="faq-item"><dt>{{ f.q }}</dt><dd>{{ f.a }}</dd></div>
+      {%- endfor %}
+    </dl>
   </div>
 </section>
 
