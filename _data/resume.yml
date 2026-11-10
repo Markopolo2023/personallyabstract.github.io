@@ -62,7 +62,7 @@ highlights:
   # Data & software
   - { value: "50%+", label: "faster reporting with the statewide IWT-DSR app", views: [data] }
   - { value: "25–50%", label: "less time per site visit for six field chemists", views: [data] }
-  - { value: "5", label: "Epistemion apps launched — WaterLog DSR, Adversaria ELN, Cozy Prose, Frostfire, ChopChopGo", views: [data] }
+  - { value: "4", label: "apps built — WaterLog DSR live; Adversaria ELN, Cozy Prose & Frostfire coming soon", views: [data] }
   - { value: "15–25%", label: "faster discovery reported by Adversaria ELN research users", views: [data] }
   # Fitness
   - { value: "13–70+", label: "client ages coached over seven years", views: [fitness] }
@@ -107,7 +107,7 @@ experience:
     bullets:
       - text: Co-founded an industrial-automation and agentic-AI firm delivering control-system software, dashboards, custom web/mobile apps and technical consulting to clients nationwide.
         tracks: [data, engineering, science]
-      - text: Built and launched five apps — WaterLog DSR (field-service platform, in a client pilot), Adversaria ELN (lab notebook; users report 15–25% faster discovery), Cozy Prose (writing), Frostfire (contrast-therapy tracking) and ChopChopGo (recipes, on both app stores).
+      - text: Built four apps — WaterLog DSR (field-service platform for water treatment, live in a client pilot); Adversaria ELN (lab notebook; early users report 15–25% faster discovery), Cozy Prose (writing) and Frostfire (contrast-therapy tracking), all coming soon — and contributed to other Epistemion products.
         tracks: [data, engineering]
       - text: Architect production AI-integrated systems — multi-agent architectures, governed build/validation pipelines and automation tools for research and enterprise clients.
         tracks: [data, engineering]

@@ -9,7 +9,7 @@ redirect_from: [/data-analysis.html]
 {%- assign products = site.data.portfolio | where: "group", "product" -%}
 {%- assign tools = site.data.portfolio | where_exp: "i", "i.group != 'product'" -%}
 <section class="r-section">
-  <h2 class="small-head">Apps &amp; products · built with Epistemion</h2>
+  <h2 class="small-head">Apps I’ve built · Epistemion</h2>
   <div class="card-grid">
     {%- for item in products -%}{%- include portfolio-card.html item=item -%}{%- endfor -%}
   </div>

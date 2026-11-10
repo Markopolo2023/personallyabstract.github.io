@@ -1,5 +1,5 @@
 # Data & software portfolio. `featured: true` items also appear on the homepage.
-# `group: product` = shipped apps (shown first under "Apps & products").
+# `group: product` = apps I built (shown first under "Apps & products"); `status` shows a badge instead of links.
 
 - title: WaterLog DSR
   group: product
@@ -16,13 +16,12 @@
 - title: Adversaria ELN
   group: product
   org: Epistemion
-  summary: Block-based electronic lab notebook for solo researchers and small labs — custom blocks, scientific templates, voice dictation and an AI companion that reviews an experiment or proposes the next one. Users report 15–25% faster discovery.
+  summary: Block-based electronic lab notebook for solo researchers and small labs — custom blocks, scientific templates, voice dictation and an AI companion that reviews an experiment or proposes the next one. Early research users report 15–25% faster discovery.
   image: /assets/img/portfolio/adversaria-eln.jpg
   wide: true
   tags: [React, Flutter, Firebase, AI]
   year: 2026
-  links:
-    - { label: Open Adversaria, url: "https://adversaria-eln.web.app/" }
+  status: Coming soon
 
 - title: Cozy Prose
   group: product
@@ -32,8 +31,7 @@
   wide: true
   tags: [React, Flutter, Firebase, AI]
   year: 2026
-  links:
-    - { label: Try Cozy Prose, url: "https://cozypros.web.app/" }
+  status: Coming soon
 
 - title: Frostfire
   group: product
@@ -43,20 +41,8 @@
   wide: true
   tags: [Flutter, Riverpod, Firebase, AI]
   year: 2026
-  links:
-    - { label: Frostfire site, url: "https://frostfire-prod.web.app/" }
+  status: Coming soon
 
-- title: ChopChopGo
-  group: product
-  org: Epistemion
-  summary: Recipe manager that imports recipes from around the web, organizes them and makes them easy to share — on iOS, Android, web and desktop.
-  image: /assets/img/portfolio/chopchopgo.jpg
-  tags: [Flutter, Dart, BLoC, Firebase]
-  year: 2025
-  links:
-    - { label: chopchopgo.com, url: "https://chopchopgo.com/" }
-    - { label: App Store, url: "https://apps.apple.com/us/app/chopchopgo/id6753325566" }
-    - { label: Google Play, url: "https://play.google.com/store/apps/details?id=com.epistemion.chopchopgo" }
 - title: IWT-DSR — Water Treatment Reporting App
   summary: Enterprise-grade, multi-platform app that replaced paper site reports for a statewide water-treatment program — field data capture, reporting and analytics in one place. Cut site-visit reporting time by 50%.
   image: /assets/img/portfolio/dsr_image4.jpg

@@ -2,11 +2,11 @@
 <article class="card">
   <div class="card-media{% if it.contain %} contain{% endif %}{% if it.wide %} wide{% endif %}"><img src="{{ it.image | relative_url }}" alt="{{ it.title | escape }}" loading="lazy"></div>
   <div class="card-body">
-    <span class="card-meta">{{ it.year }}{% if it.org %} · {{ it.org }}{% endif %}</span>
+    <span class="card-meta">{{ it.year }}{% if it.org %} · {{ it.org }}{% endif %}{% if it.status %}<span class="badge">{{ it.status }}</span>{% endif %}</span>
     <h3>{{ it.title }}</h3>
     <p>{{ it.summary }}</p>
     {%- if it.note %}<p class="muted small"><em>{{ it.note }}</em></p>{% endif %}
     <ul class="tags">{% for t in it.tags %}<li class="tag">{{ t }}</li>{% endfor %}</ul>
-    <div class="card-links">{% for l in it.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</div>
+    {%- if it.links %}<div class="card-links">{% for l in it.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</div>{% endif %}
   </div>
 </article>
