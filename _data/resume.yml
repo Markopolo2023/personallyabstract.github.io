@@ -1,0 +1,264 @@
+# Single source of truth for /resume/.
+# Every item carries `tracks`: which filtered views it appears in.
+# Tracks: science, engineering, data, fitness. ("all" view shows everything.)
+
+views:
+  - id: all
+    label: Everything
+    title: Chemist · Engineer · Developer · Founder
+    summary: >-
+      Scientist and engineer with 10+ years turning laboratory science into working systems — plasma
+      reactors, a DOE-funded CO₂-capture pilot lab, and enterprise data platforms for statewide water
+      treatment. Co-founder of Epistemion, an industrial-automation and agentic-AI company. I sit where
+      chemistry, hardware and software meet, and I like shipping things people actually use.
+  - id: science
+    label: Science
+    title: Analytical & Plasma Chemist
+    summary: >-
+      Research scientist with 10+ years across analytical chemistry, biochemistry and plasma chemistry.
+      Hands-on with HPLC, GC-MS, LC-MS, UV-Vis and isotope-ratio mass spectrometry — operation, method
+      development, maintenance and repair. Published in Biochemistry and JCI Insight; now leading
+      plasma-based synthesis research focused on CO₂ utilization.
+  - id: engineering
+    label: Engineering
+    title: Engineer & Systems Analyst
+    summary: >-
+      Applied engineer who designs, builds and troubleshoots physical systems — plasma reactors,
+      industrial water-treatment infrastructure and pilot-scale CO₂ capture. I prototype fixtures and
+      measurement rigs by hand, model fluid flow, heat transfer and electromagnetics in Python, and
+      iterate until the system performs.
+  - id: data
+    label: Data & Software
+    title: Data Scientist & Software Developer
+    summary: >-
+      Developer and data scientist who builds tools for real operations: a multi-platform Flutter app
+      that cut statewide reporting time 50%, a 50-year water-treatment research database built with
+      AI-powered OCR, and scientific simulation software. Co-founder of Epistemion, building governed
+      agentic-AI systems and automation for clients.
+  - id: fitness
+    label: Fitness
+    title: Personal Trainer & Coach
+    summary: >-
+      Founder of Approachable Fitness (2019–2026), a client-centered personal training business that
+      helped people of every background and fitness level reach goals “big” or “small.” NASM-certified
+      trainer, Brazilian jiu-jitsu competitor and obstacle-course racer.
+
+highlights:
+  - { value: "10+", label: "years in research & applied science", tracks: [science, engineering, data] }
+  - { value: "50%", label: "faster statewide site-visit reporting", tracks: [data, engineering] }
+  - { value: "50 yrs", label: "of water-treatment records digitized", tracks: [data, science] }
+  - { value: "DOE", label: "funded CO₂-capture pilot lab commissioned", tracks: [science, engineering] }
+  - { value: "3", label: "peer-reviewed publications", tracks: [science] }
+  - { value: "7 yrs", label: "running a personal training business", tracks: [fitness] }
+  - { value: "Blue", label: "belt, 4 stripes — Brazilian jiu-jitsu", tracks: [fitness] }
+  - { value: "2025", label: "co-founded Epistemion LLC", tracks: [data, engineering, fitness] }
+
+experience:
+  - title: Plasma Chemistry Research Supervisor & Strategic Partner
+    org: Prairie Research Institute, University of Illinois Urbana-Champaign
+    location: Champaign, IL
+    start: Oct 2025
+    end: Present
+    tracks: [science, engineering, data]
+    bullets:
+      - text: Set strategy and technical roadmaps for plasma-based chemical synthesis — arc and glow discharges, catalysts and novel reaction pathways for CO₂ utilization and amino-acid production.
+        tracks: [science, engineering]
+      - text: Design, build and test novel plasma reactors, iterating geometry, catalyst integration and custom fixtures for yield, energy efficiency and stability under extreme operating conditions.
+        tracks: [science, engineering]
+      - text: Built and validated plasma modeling tools (Python, C#, JavaScript) covering fluid dynamics, heat transfer and electromagnetic behavior to predict reactor regimes and speed up iteration.
+        tracks: [engineering, data, science]
+      - text: Lead hands-on experiments, systematically optimizing power, flow rates and catalysts with data-driven parameter studies.
+        tracks: [science, data]
+      - text: Coordinate timelines and cross-functional teams of chemists and engineers; maintain rigorous safety protocols and documentation for high-energy plasma work.
+        tracks: [science, engineering, data]
+
+  - title: Co-Founder
+    org: Epistemion LLC
+    url: https://epistemion.com
+    location: Champaign, IL
+    start: Sep 2025
+    end: Present
+    tracks: [data, engineering, science, fitness]
+    bullets:
+      - text: Co-founded an industrial-automation and agentic-AI firm delivering control-system software, dashboards, custom web/mobile apps and technical consulting to clients nationwide.
+        tracks: [data, engineering, science, fitness]
+      - text: Architect production AI-integrated systems — multi-agent architectures, governed build/validation pipelines and automation tools for research and enterprise clients.
+        tracks: [data, engineering]
+      - text: Run DevOps and infrastructure, including a distributed Mac mini compute cluster, Git-based CI/CD and local AI compute environments.
+        tracks: [data, engineering]
+      - text: Acting CFO — financial operations, capital structure and financial modeling; lead business development and strategic partnerships, including a joint-venture AI-agent product.
+        tracks: [data, fitness]
+
+  - title: Consulting Specialist, Analytical Chemistry & Engineering
+    org: University of Illinois Urbana-Champaign
+    location: Springfield, IL
+    start: Feb 2025
+    end: Present
+    tracks: [science, engineering, data]
+    bullets:
+      - text: Commissioned and optimized a pilot-scale test laboratory under DOE grant DE-FE0031581, evaluating Linde-BASF post-combustion CO₂-capture technology at a coal-fired power plant.
+        tracks: [science, engineering, data]
+      - text: Diagnosed and repaired complex equipment failures and validated analytical methods to keep data accurate and the project on schedule.
+        tracks: [science, engineering]
+      - text: Led a cross-functional team to steady-state operations, building custom software for data analysis and reporting aligned with real-time plant conditions.
+        tracks: [engineering, data]
+      - text: Delivered technical reports and consulted plant engineers on data interpretation, process optimization and troubleshooting.
+        tracks: [science, engineering, data]
+
+  - title: Scientific Specialist
+    org: Illinois Sustainable Technology Center, Prairie Research Institute
+    location: Urbana-Champaign, IL
+    start: Aug 2022
+    end: Present
+    tracks: [science, engineering, data]
+    bullets:
+      - text: Built and deployed an enterprise multi-platform app (Flutter/Dart, Python, ML) for statewide water-treatment data capture, reporting and analysis — 50% faster site-visit reporting.
+        tracks: [data, engineering]
+      - text: Led a data-modernization initiative digitizing 50+ years of records (1970s–present) from handwritten, Word, Excel and PDF sources using AI-powered OCR and Python pipelines into a searchable research database.
+        tracks: [data, science]
+      - text: Engineered field solutions alongside mechanical and industrial engineers — custom sampling tools, sensor mounts, flow-control fixtures and automated data-logging rigs for high-pressure, high-flow systems.
+        tracks: [engineering]
+      - text: Conduct field chemistry — sampling, on-site testing and treatment optimization — at government facilities including prisons, data centers and IDOT sites; hold Illinois DOC security clearance.
+        tracks: [science, engineering]
+      - text: Lead project manager for an operations overhaul; initiated and lead an internal R&D team for data tools, automation and applied chemistry.
+        tracks: [science, engineering, data]
+
+  - title: Founder & Personal Trainer
+    org: Approachable Fitness
+    location: Urbana-Champaign, IL
+    start: Feb 2019
+    end: Mar 2026
+    tracks: [fitness]
+    bullets:
+      - text: Founded and ran a personal training business centered on each client’s goals, “big” or “small.”
+        tracks: [fitness]
+      - text: Coached clients of widely varied backgrounds, ages and fitness levels to measurable results with individualized programming.
+        tracks: [fitness]
+      - text: Built my own Python workout-planning app to design client programs — my first software project.
+        tracks: [fitness, data]
+
+  - title: Research Specialist
+    org: University of Illinois Urbana-Champaign
+    location: Urbana-Champaign, IL
+    start: Oct 2019
+    end: Aug 2022
+    tracks: [science, engineering, data]
+    bullets:
+      - text: Expressed, purified and characterized mammalian cytochrome P450 enzymes and ran metabolism studies; synthesized and characterized sensitive lipid molecules.
+        tracks: [science]
+      - text: Analyzed biochemical data in Python and built automated workflows for synthesis characterization.
+        tracks: [science, data]
+      - text: Managed lab operations — instrument repair, student training and project management of the lab’s relocation from UIUC to Georgia Tech.
+        tracks: [science, engineering]
+      - text: Co-authored peer-reviewed publications in Biochemistry and JCI Insight.
+        tracks: [science, data]
+
+  - title: Chemistry Technician
+    org: Aardsma Research & Publishing
+    location: Loda, IL
+    start: Mar 2017
+    end: Sep 2019
+    tracks: [science, engineering]
+    bullets:
+      - text: Performed chemical synthesis and HPLC/MS analysis; maintained instruments and optimized analytical workflows.
+        tracks: [science, engineering]
+      - text: Managed inventory and lab organization; analyzed and reported research data.
+        tracks: [science]
+
+  - title: Analytical Chemist
+    org: Isotech Laboratories, Inc.
+    location: Champaign, IL
+    start: Jun 2016
+    end: Mar 2017
+    tracks: [science]
+    bullets:
+      - text: Isolated hydrocarbons and measured isotope ratios by mass spectrometry; developed and edited GC methods.
+        tracks: [science]
+      - text: Tracked samples through the analytical workflow and kept instruments calibrated.
+        tracks: [science]
+
+skills:
+  - group: Science
+    tracks: [science]
+    items: [HPLC, GC-MS, LC-MS, UV-Vis, Isotope-ratio MS, Plasma chemistry, Plasma diagnostics, Protein expression & purification, Lipid synthesis, Method validation, QA/QC]
+  - group: Engineering
+    tracks: [engineering]
+    items: [Reactor design, Prototyping & fabrication, Fluid & heat-transfer modeling, Electromagnetic modeling, Water treatment systems, Troubleshooting, SolidWorks, MathCAD, MATLAB]
+  - group: Data & Software
+    tracks: [data, engineering]
+    items: [Python, SQL, C#, C++, Flutter/Dart, JavaScript, Jupyter, pandas / SciPy, Dash & Plotly, Machine learning, LLMs & agentic AI, Git & CI/CD]
+  - group: Leadership
+    tracks: [science, engineering, data, fitness]
+    items: [Project management, Team leadership, Lab management, Business development, Technical writing, Public speaking]
+  - group: Coaching
+    tracks: [fitness]
+    items: [Personal training, Program design, Client goal-setting, Motivation & accountability, Strength & conditioning]
+
+publications:
+  - title: "Metabolites of Cannabigerol Generated by Human Cytochrome P450s Are Bioactive"
+    venue: Biochemistry
+    year: 2022
+    url: https://pubmed.ncbi.nlm.nih.gov/36223199/
+  - title: "Estrogen metabolites increase nociceptor hyperactivity in a mouse model of uterine pain"
+    venue: JCI Insight
+    year: 2022
+    url: https://pubmed.ncbi.nlm.nih.gov/35420999/
+  - title: "Omega-3 Endocannabinoid Epoxide Enantiomers Formed by Human Cytochrome P450s Are Bioactive"
+    venue: Biochemistry (under review)
+
+talks:
+  - title: "From Concept to Deployment: Building a Custom Water Testing Application for IWT"
+    venue: Prairie Research Institute
+    year: 2026
+    tracks: [data, engineering]
+  - title: "AI for Water Intelligence (four-part series)"
+    venue: Illinois State Water Survey
+    year: 2026
+    tracks: [data, science]
+  - title: "CO₂ Capture and CO Conversion Using KOH-Activated Carbon Foams under DC-Arc Plasma"
+    venue: PRI Lightning Talks
+    year: 2026
+    tracks: [science, engineering]
+  - title: "Water Line: Enterprise Database Synthesis for Data-Driven Water Treatment Management"
+    venue: PRI Lightning Talks
+    year: 2026
+    tracks: [data]
+
+education:
+  - degree: B.S. Chemistry
+    school: Greenville University
+    years: 2013 – 2015
+    tracks: [science, engineering, data, fitness]
+  - degree: A.S. General Studies
+    school: Parkland College
+    years: 2008 – 2012
+    tracks: [science, engineering, data, fitness]
+  - degree: "Graduate coursework: Plasma & Fusion Science (2025), Modeling of Nuclear Energy Systems (2022), Differential Equations (2020)"
+    school: University of Illinois Urbana-Champaign
+    tracks: [science, engineering, data]
+  - degree: "Coursework: Symbolic Logic, Early Modern Philosophy (2023), Logic & Reasoning (2022)"
+    school: University of Illinois Urbana-Champaign
+    tracks: [data]
+
+certifications:
+  - { name: Google Data Analytics, org: Google / Coursera, year: 2025, tracks: [data] }
+  - { name: Partial Differential Equations, org: Udemy, year: 2025, tracks: [engineering, data, science] }
+  - { name: Differential Equations, org: Udemy, year: 2025, tracks: [engineering, data] }
+  - { name: Linear Algebra, org: Udemy, year: 2024, tracks: [engineering, data] }
+  - { name: SQL for Data Science, org: UC Davis / Coursera, year: 2024, tracks: [data] }
+  - { name: Microsoft SQL Server Database Administration, org: Udemy, year: 2024, tracks: [data] }
+  - { name: C++ for Beginners, org: Udemy, year: 2023, tracks: [data] }
+  - { name: Certified Personal Trainer (NASM-CPT), org: NASM, year: 2023–2025, tracks: [fitness] }
+  - { name: CPR & AED, org: ASTI, year: 2023–2025, tracks: [fitness] }
+
+athletics:
+  - { name: Brazilian jiu-jitsu, detail: "4-stripe blue belt under Jack McVicker; multiple competition medals, gi and no-gi" }
+  - { name: Spartan Race, detail: "Beast (2020), Sprint (2025)" }
+  - { name: Savage Race, detail: "1–2 races every year since 2019; 2024 Syndicate medal" }
+
+organizations:
+  - { name: Association of Water Technologies, role: Member, years: 2022 – present, tracks: [science, engineering] }
+  - { name: SAC Committee, Illinois State Water Survey, role: Committee member, years: 2023 – 2025, tracks: [science, engineering, data] }
+
+honors:
+  - { name: David Jones Persuasive Speech Contest — 3rd place, year: 2011 }

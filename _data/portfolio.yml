@@ -1,0 +1,72 @@
+# Data & software portfolio. `featured: true` items also appear on the homepage.
+- title: IWT-DSR — Water Treatment Reporting App
+  summary: Enterprise-grade, multi-platform app that replaced paper site reports for a statewide water-treatment program — field data capture, reporting and analytics in one place. Cut site-visit reporting time by 50%.
+  image: /assets/img/portfolio/dsr_image4.jpg
+  tags: [Flutter, Dart, Python, SQL, ML, LLM]
+  year: 2025
+  featured: true
+  links:
+    - { label: Project overview, url: "https://github.com/Markopolo2023/IWT-DSR-Overview" }
+
+- title: Water-Line Database
+  summary: Fifty years of historic water-treatment reports — handwritten, Word, Excel and PDF — cleaned, OCR’d and unified into one searchable research database.
+  image: /assets/img/portfolio/waterlinedb.jpg
+  tags: [Python, SQLite, pandas, OCR, ML]
+  year: 2025
+  featured: true
+  links:
+    - { label: Overview, url: "https://github.com/Markopolo2023/Water_Line_DB/blob/main/README.md" }
+
+- title: Plasma Ammonia Synthesis Simulation
+  summary: Simulation exploring which factors drive plasma-enhanced ammonia (NH₃) synthesis — a computational companion to hands-on reactor work.
+  image: /assets/img/portfolio/ammonia.jpg
+  tags: [Python, Jupyter, NumPy, SciPy, pandas]
+  year: 2025
+  featured: true
+  links:
+    - { label: GitHub, url: "https://github.com/Markopolo2023/Ammonia_plasma_synthesis_simulation" }
+    - { label: Notebook, url: "https://github.com/Markopolo2023/Ammonia_plasma_synthesis_simulation/blob/main/plasma_ammonia_synthesis.ipynb" }
+
+- title: Water Data Dashboard
+  summary: End-to-end pipeline that extracts historic water-testing reports from PDF and turns them into an interactive dashboard.
+  image: /assets/img/portfolio/waterline.jpg
+  tags: [Python, Dash, Plotly, pdfplumber]
+  year: 2024
+  links:
+    - { label: GitHub, url: "https://github.com/Markopolo2023/Water_line" }
+    - { label: Notebook, url: "https://github.com/Markopolo2023/Water_line/blob/main/jupyter_nb/IWT_Dashboard.ipynb" }
+
+- title: Crypto Volatility in Emerging Markets
+  summary: Exploratory analysis and forecasting of cryptocurrency volatility and adoption trends across emerging economies.
+  image: /assets/img/portfolio/cryptoemerging.jpg
+  tags: [Python, pandas, SciPy, Dash, Plotly]
+  year: 2024
+  links:
+    - { label: GitHub, url: "https://github.com/Markopolo2023/Emerging_markets_analysis" }
+    - { label: Notebook, url: "https://github.com/Markopolo2023/Emerging_markets_analysis/blob/main/jupyter/Crypto_adoption.ipynb" }
+
+- title: UV-Vis Spectral Matcher
+  summary: Desktop tool with a GUI that compares UV-Vis sample spectra against a standard library to help identify compounds.
+  image: /assets/img/portfolio/uvvis.jpg
+  tags: [Python, SciPy, Tkinter]
+  year: 2024
+  links:
+    - { label: GitHub, url: "https://github.com/Markopolo2023/UV_VIS_Data_Analysis" }
+
+- title: Digital Site Report (Excel)
+  summary: The Excel-based digital site report that first modernized data capture for the statewide water-testing program — the precursor to IWT-DSR.
+  image: /assets/img/portfolio/excel.jpg
+  contain: true
+  tags: [Excel, OneDrive]
+  year: 2023
+  links:
+    - { label: Project overview, url: "https://github.com/Markopolo2023/personallyabstract.github.io/blob/main/data_assets/ipy_nb/dsr.ipynb" }
+
+- title: Small-Business P&L Dashboard
+  summary: Lightweight Google Sheets dashboard that gives a local small business a clear view of profit and loss.
+  image: /assets/img/portfolio/google_2015.jpg
+  contain: true
+  tags: [Google Sheets]
+  year: 2023
+  links:
+    - { label: View sheet, url: "https://docs.google.com/spreadsheets/d/1mhnU_qQ008RgwuxSNlLrf6lLu9spR5vFXMr-lSLP_Zs/view" }

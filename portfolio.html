@@ -1,0 +1,13 @@
+---
+title: Data & Software Portfolio
+eyebrow: Portfolio
+lede: Tools I’ve built to turn messy real-world data into decisions — from field apps and research databases to scientific simulations.
+permalink: /portfolio/
+redirect_from: [/data-analysis.html]
+---
+<div class="card-grid">
+  {%- for item in site.data.portfolio -%}
+    {%- include portfolio-card.html item=item -%}
+  {%- endfor -%}
+</div>
+<p class="muted" style="margin-top:2rem">More on <a href="{{ site.author.github }}" target="_blank" rel="noopener">GitHub ↗</a></p>

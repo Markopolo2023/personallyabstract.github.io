@@ -1,0 +1,128 @@
+---
+title: Résumé
+description: Résumé of Mark Eschbach II — analytical & plasma chemist, engineer, data scientist and software developer, co-founder of Epistemion. Filter by science, engineering, data or fitness.
+permalink: /resume/
+hide_title: true
+---
+{%- assign r = site.data.resume -%}
+<div data-resume data-filter="all">
+  <header class="resume-top">
+    <div>
+      <p class="eyebrow">Résumé</p>
+      <h1>Mark Eschbach II</h1>
+      <p class="resume-title" data-resume-title>{{ r.views[0].title }}</p>
+      <ul class="contact-row">
+        <li>{{ site.author.location }}</li>
+        <li><a href="tel:+13314422012">{{ site.author.phone }}</a></li>
+        <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+        <li><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://epistemion.com" target="_blank" rel="noopener">epistemion.com</a></li>
+      </ul>
+    </div>
+    <div class="no-print"><button class="btn btn-ghost" type="button" data-print>Download PDF</button></div>
+  </header>
+
+  <div class="filter-bar" role="group" aria-label="Filter résumé">
+    <span class="label">View</span>
+    {%- for v in r.views %}
+    <button class="chip" type="button" data-set-filter="{{ v.id }}" data-title="{{ v.title }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ v.label }}</button>
+    {%- endfor %}
+  </div>
+
+  <div class="resume-grid">
+    <div>
+      <section class="r-section">
+        <h2>Summary</h2>
+        {%- for v in r.views %}
+        <p class="summary" data-view="{{ v.id }}">{{ v.summary }}</p>
+        {%- endfor %}
+        <div class="highlights">
+          {%- for h in r.highlights %}
+          <div class="highlight{% if forloop.index > 3 %} hl-extra{% endif %}" data-tracks="{{ h.tracks | join: ' ' }}"><strong>{{ h.value }}</strong><span>{{ h.label }}</span></div>
+          {%- endfor %}
+        </div>
+      </section>
+
+      <section class="r-section">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          {%- for j in r.experience %}
+          <li class="job{% if j.end == 'Present' %} current{% endif %}" data-tracks="{{ j.tracks | join: ' ' }}">
+            <div class="job-head">
+              <h3>{{ j.title }}{% if j.end == 'Present' %}<span class="badge">Current</span>{% endif %}</h3>
+              <span class="job-dates">{{ j.start }} – {{ j.end }}</span>
+            </div>
+            <p class="job-org">{% if j.url %}<a href="{{ j.url }}" target="_blank" rel="noopener">{{ j.org }}</a>{% else %}{{ j.org }}{% endif %} <span class="loc">· {{ j.location }}</span></p>
+            <ul>
+              {%- for b in j.bullets %}
+              <li data-tracks="{{ b.tracks | join: ' ' }}">{{ b.text }}</li>
+              {%- endfor %}
+            </ul>
+          </li>
+          {%- endfor %}
+        </ol>
+      </section>
+
+      <section class="r-section" data-tracks="science data engineering">
+        <h2>Publications &amp; talks</h2>
+        <ul class="side-block" style="list-style:none;padding:0">
+          {%- for p in r.publications %}
+          <li data-tracks="science data" style="padding:.4rem 0;color:var(--text-2)"><strong style="color:var(--text);font-weight:600">{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</strong><br><em>{{ p.venue }}</em>{% if p.year %} · {{ p.year }}{% endif %}</li>
+          {%- endfor %}
+          {%- for t in r.talks %}
+          <li data-tracks="{{ t.tracks | join: ' ' }}" style="padding:.4rem 0;color:var(--text-2)"><strong style="color:var(--text);font-weight:600">{{ t.title }}</strong><br>Talk · {{ t.venue }} · {{ t.year }}</li>
+          {%- endfor %}
+        </ul>
+      </section>
+    </div>
+
+    <aside>
+      <div class="side-block">
+        <h2>Skills</h2>
+        {%- for g in r.skills %}
+        <div data-tracks="{{ g.tracks | join: ' ' }}">
+          <h3>{{ g.group }}</h3>
+          <ul class="skill-tags">{% for s in g.items %}<li><span class="tag">{{ s }}</span></li>{% endfor %}</ul>
+        </div>
+        {%- endfor %}
+      </div>
+      <div class="side-block">
+        <h2>Education</h2>
+        <ul>
+          {%- for e in r.education %}
+          <li data-tracks="{{ e.tracks | join: ' ' }}"><strong>{{ e.degree }}</strong>{{ e.school }}{% if e.years %} <small>· {{ e.years }}</small>{% endif %}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="side-block">
+        <h2>Certifications</h2>
+        <ul>
+          {%- for c in r.certifications %}
+          <li data-tracks="{{ c.tracks | join: ' ' }}"><strong>{{ c.name }}</strong>{{ c.org }} <small>· {{ c.year }}</small></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="side-block" data-tracks="fitness">
+        <h2>Athletics</h2>
+        <ul>
+          {%- for a in r.athletics %}
+          <li><strong>{{ a.name }}</strong>{{ a.detail }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="side-block" data-tracks="science engineering data">
+        <h2>Organizations</h2>
+        <ul>
+          {%- for o in r.organizations %}
+          <li data-tracks="{{ o.tracks | join: ' ' }}"><strong>{{ o.name }}</strong>{{ o.role }} <small>· {{ o.years }}</small></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="side-block">
+        <h2>Honors</h2>
+        <ul>{% for h in r.honors %}<li>{{ h.name }} <small>· {{ h.year }}</small></li>{% endfor %}</ul>
+      </div>
+    </aside>
+  </div>
+</div>

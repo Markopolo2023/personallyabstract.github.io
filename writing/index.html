@@ -1,0 +1,18 @@
+---
+title: Writing
+eyebrow: Essays
+lede: Philosophy, meaning, hope and the strange forces that shape the modern West — longer-form thinking, written slowly.
+permalink: /writing/
+redirect_from: [/philosophy.html]
+---
+<ul class="post-list">
+  {%- assign docs = site.writing | sort: "date" | reverse -%}
+  {%- for d in docs -%}
+  <li><a href="{{ d.url }}">
+    <time class="post-date" datetime="{{ d.date | date_to_xmlschema }}">{{ d.date | date: "%b %Y" }}</time>
+    <span class="post-title">{{ d.title }}</span>
+    <span class="post-kind">{{ d.category }}</span>
+    <span class="post-sub">{{ d.subtitle }}</span>
+  </a></li>
+  {%- endfor -%}
+</ul>

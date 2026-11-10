@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 230 | plus: 1 -%}
+{%- if page.section == "projects" -%}{%- assign back_url = "/projects/" -%}{%- assign back_label = "All projects" -%}
+{%- else -%}{%- assign back_url = "/writing/" -%}{%- assign back_label = "All writing" -%}{%- endif -%}
+<article class="article">
+  <header class="article-head wrap narrow">
+    <p class="eyebrow"><a href="{{ back_url | relative_url }}">{{ page.category | default: "Writing" }}</a></p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% endif %}
+    <p class="meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span aria-hidden="true">·</span> {{ minutes }} min read
+    </p>
+  </header>
+  {%- if page.image %}
+  <div class="wrap article-hero"><img src="{{ page.image | relative_url }}" alt="" fetchpriority="high"></div>
+  {%- endif %}
+  <div class="wrap narrow prose">
+    {{ content }}
+  </div>
+  <footer class="wrap narrow article-foot">
+    <div class="article-links">
+      {%- if page.repo %}<a class="btn" href="{{ page.repo }}" target="_blank" rel="noopener">View code on GitHub</a>{% endif -%}
+      {%- if page.pdf %}<a class="btn btn-ghost" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener">Original PDF</a>{% endif -%}
+    </div>
+    {%- assign siblings = site[page.collection] | sort: "date" | reverse -%}
+    {%- assign others = "" | split: "" -%}
+    {%- for d in siblings -%}{%- if d.url != page.url -%}{%- assign others = others | push: d -%}{%- endif -%}{%- endfor -%}
+    {%- if others.size > 0 %}
+    <h2 class="small-head">Keep reading</h2>
+    <ul class="post-list compact">
+      {%- for d in others limit: 2 %}
+      <li><a href="{{ d.url | relative_url }}"><span class="post-title">{{ d.title }}</span><span class="post-sub">{{ d.subtitle }}</span></a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    <p><a class="back" href="{{ back_url | relative_url }}">← {{ back_label }}</a></p>
+  </footer>
+</article>

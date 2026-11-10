@@ -1,0 +1,23 @@
+---
+title: Projects
+eyebrow: Builds
+lede: Hands-on projects — DIY builds from scavenged materials, and the software that got me started. Documented iterations, failures included.
+permalink: /projects/
+redirect_from: [/projects.html]
+---
+<div class="card-grid">
+  {%- assign docs = site.projects | sort: "order" -%}
+  {%- for d in docs -%}
+  <article class="card">
+    <div class="card-media{% unless d.image %} contain{% endunless %}">
+      {%- if d.image -%}<img src="{{ d.image | relative_url }}" alt="" loading="lazy">
+      {%- else -%}<div style="display:grid;place-items:center;height:100%;font:500 2.4rem/1 var(--font-mono);color:var(--accent)">&lt;py/&gt;</div>{%- endif -%}
+    </div>
+    <div class="card-body">
+      <span class="card-meta">{{ d.category }} · {{ d.date | date: "%b %Y" }}</span>
+      <h3><a href="{{ d.url }}">{{ d.title }}</a></h3>
+      <p>{{ d.subtitle }}</p>
+    </div>
+  </article>
+  {%- endfor -%}
+</div>

@@ -1,0 +1,11 @@
+{%- assign it = include.item -%}
+<article class="card">
+  <div class="card-media{% if it.contain %} contain{% endif %}"><img src="{{ it.image | relative_url }}" alt="" loading="lazy"></div>
+  <div class="card-body">
+    <span class="card-meta">{{ it.year }}</span>
+    <h3>{{ it.title }}</h3>
+    <p>{{ it.summary }}</p>
+    <ul class="tags">{% for t in it.tags %}<li class="tag">{{ t }}</li>{% endfor %}</ul>
+    <div class="card-links">{% for l in it.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</div>
+  </div>
+</article>

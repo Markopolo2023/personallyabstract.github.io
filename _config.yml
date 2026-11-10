@@ -1,16 +1,64 @@
-title: Philosophy Blog
-description: A blog exploring philosophical ideas
+title: Mark Eschbach II
+tagline: Chemist · Engineer · Developer · Founder
+description: >-
+  Mark Eschbach II — chemist, engineer, software developer and co-founder of Epistemion.
+  Plasma chemistry, water-treatment data systems, AI tooling, DIY builds and philosophy.
+url: "https://personallyabstract.org"
 baseurl: ""
-url: "https://markopolo2023.github.io"
+lang: en_US
+author:
+  name: Mark Eschbach II
+  email: meschbach2@gmail.com
+  phone: "(331) 442-2012"
+  location: Champaign, Illinois
+  linkedin: https://www.linkedin.com/in/mark-eschbach-648909ab
+  github: https://github.com/Markopolo2023
+social:
+  name: Mark Eschbach II
+  links:
+    - https://www.linkedin.com/in/mark-eschbach-648909ab
+    - https://github.com/Markopolo2023
+image: /assets/img/og-default.jpg
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true
+
 collections:
-  philosophy:
+  writing:
     output: true
-    permalink: /philosophy/:title
+    permalink: /writing/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 defaults:
-  - scope:
-      path: ""
-      type: philosophy
-    values:
-      layout: post
+  - scope: { path: "", type: writing }
+    values: { layout: article, section: writing }
+  - scope: { path: "", type: projects }
+    values: { layout: article, section: projects }
+  - scope: { path: "" }
+    values: { layout: page }
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+feed:
+  collections:
+    - writing
+    - projects
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
+  - "**/.ipynb_checkpoints"
+  - data_assets/ipy_nb
