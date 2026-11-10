@@ -17,22 +17,22 @@ views:
     summary: >-
       Research scientist with 10+ years across analytical chemistry, biochemistry and plasma chemistry.
       Hands-on with HPLC, GC-MS, LC-MS, UV-Vis and isotope-ratio mass spectrometry — operation, method
-      development, maintenance and repair. Published in Biochemistry and JCI Insight; now leading
-      plasma-based synthesis research focused on CO₂ utilization.
+      development, maintenance and repair. Three peer-reviewed papers (Biochemistry, JCI Insight) and a manuscript
+      in preparation; now leading plasma-based synthesis research focused on CO₂ utilization and mentoring students.
   - id: engineering
     label: Engineering
     title: Engineer & Systems Analyst
     summary: >-
-      Applied engineer who designs, builds and troubleshoots physical systems — plasma reactors,
-      industrial water-treatment infrastructure and pilot-scale CO₂ capture. I prototype fixtures and
+      Applied engineer who designs, builds and troubleshoots physical systems — plasma and Joule-heating
+      reactors, pulsed power supplies, water-treatment systems across 43+ sites and pilot-scale CO₂ capture. I prototype fixtures and
       measurement rigs by hand, model fluid flow, heat transfer and electromagnetics in Python, and
-      iterate until the system performs.
+      iterate until the system performs — at home too, like a closed-loop, AC-chilled cold plunge.
   - id: data
     label: Data & Software
     title: Data Scientist & Software Developer
     summary: >-
-      Developer and data scientist who builds tools for real operations: a multi-platform Flutter app
-      that cut statewide reporting time 50%, a 50-year water-treatment research database built with
+      Developer and data scientist who builds tools for real operations: a statewide Flutter app
+      that cut reporting time 50%+ for six field chemists, a 50-year water-treatment research database built with
       AI-powered OCR, and scientific simulation software. Co-founder of Epistemion, building governed
       agentic-AI systems and automation for clients.
   - id: fitness
@@ -40,32 +40,35 @@ views:
     title: Personal Trainer & Coach
     summary: >-
       Founded and ran Approachable Fitness (2019–2026, now closed), a client-centered personal training business that
-      helped people of every background and fitness level reach goals “big” or “small.” NASM-certified
+      helped clients aged 13 to 70+ reach goals “big” or “small.” NASM-certified
       trainer, purple belt in Brazilian jiu-jitsu and obstacle-course racer.
 
 highlights:
   # `views` = exactly which résumé views show this stat ("all" = the Everything view).
   # General
   - { value: "10+", label: "years across research, engineering and software", views: [all] }
-  - { value: "2025", label: "co-founded Epistemion, an automation & agentic-AI firm", views: [all, data] }
-  - { value: "7", label: "publications & talks, from Biochemistry to AI for water", views: [all] }
+  - { value: "2025", label: "co-founded Epistemion, an automation & agentic-AI firm", views: [all] }
+  - { value: "8", label: "papers, manuscripts & talks — from Biochemistry to AI for water", views: [all] }
   # Science
-  - { value: "3", label: "peer-reviewed papers (Biochemistry, JCI Insight)", views: [science] }
-  - { value: "DOE", label: "funded CO₂-capture pilot lab commissioned at a power plant", views: [science, engineering] }
-  - { value: "5+", label: "instrument platforms run & repaired — HPLC, GC-MS, LC-MS, UV-Vis, IRMS", views: [science] }
+  - { value: "3 + 1", label: "peer-reviewed papers published, plus a manuscript in preparation", views: [science] }
+  - { value: "3%", label: "higher CO₂→CO conversion from a more efficient reactor design", views: [science] }
+  - { value: "C-SPARK", label: "software I built to map plasma surface-chemistry reactions", views: [science] }
+  - { value: "DOE", label: "funded CO₂-capture pilot lab commissioned at a power plant", views: [science] }
   # Engineering
+  - { value: "43+", label: "water-treatment sites and facilities served in the field", views: [engineering] }
+  - { value: "5%", label: "conversion gain from redesigning plasma reactors", views: [engineering] }
   - { value: "50 yrs", label: "of handwritten & legacy water records digitized into one database", views: [engineering] }
-  - { value: "Novel", label: "plasma reactors designed, built and modeled for CO₂ utilization", views: [engineering] }
-  - { value: "1", label: "full lab relocation managed, UIUC → Georgia Tech", views: [engineering] }
+  - { value: "Joule", label: "heating reactor & pulsed-power circuitry built for a national-lab collaboration", views: [engineering] }
   # Data & software
-  - { value: "50%", label: "faster statewide site-visit reporting with a custom Flutter app", views: [data] }
-  - { value: "4-part", label: "“AI for Water Intelligence” series taught to Water Survey colleagues", views: [data] }
-  - { value: "Multi-agent", label: "AI systems with governed build & validation pipelines", views: [data] }
+  - { value: "50%+", label: "faster reporting with the statewide IWT-DSR app", views: [data] }
+  - { value: "25–50%", label: "less time per site visit for six field chemists", views: [data] }
+  - { value: "3", label: "Epistemion products shipped — WaterLog DSR, Adversaria ELN, Chop Chop Go", views: [data] }
+  - { value: "15–25%", label: "faster discovery reported by Adversaria ELN research users", views: [data] }
   # Fitness
-  - { value: "7 yrs", label: "running a personal training business (2019–2026)", views: [fitness] }
+  - { value: "13–70+", label: "client ages coached over seven years", views: [fitness] }
+  - { value: "30+ lb", label: "fat loss and 10–20 lb muscle gains for standout clients", views: [fitness] }
   - { value: "Purple", label: "belt in Brazilian jiu-jitsu", views: [fitness] }
-  - { value: "IBJJF", label: "silver medal, gi (blue belt)", views: [fitness] }
-  - { value: "Beast", label: "Spartan Race finisher, plus yearly Savage Races", views: [fitness] }
+  - { value: "Medals", label: "at IBJJF, Fuji and American Grappling — gi & no-gi", views: [fitness] }
 
 experience:
   - title: Plasma Chemistry Research Supervisor & Strategic Partner
@@ -77,8 +80,16 @@ experience:
     bullets:
       - text: Set strategy and technical roadmaps for plasma-based chemical synthesis — arc and glow discharges, catalysts and novel reaction pathways for CO₂ utilization and amino-acid production.
         tracks: [science, engineering]
-      - text: Design, build and test novel plasma reactors, iterating geometry, catalyst integration and custom fixtures for yield, energy efficiency and stability under extreme operating conditions.
-        tracks: [science, engineering]
+      - text: Helped design a more efficient plasma reactor that boosted CO₂-to-CO conversion by 3%.
+        tracks: [science]
+      - text: Designed, built and tested multiple plasma reactors — geometry, catalyst integration and custom fixtures — with reactor-design changes raising conversion by up to 5%.
+        tracks: [engineering]
+      - text: Engineered a Joule-heating reactor plus its timing circuits and pulsed power supplies for a national-lab collaboration, getting the system running so the science team could measure efficiencies.
+        tracks: [engineering]
+      - text: Developed C-SPARK, software for identifying plasma surface-chemistry reactions during exploratory analysis.
+        tracks: [science, data]
+      - text: Mentor master’s and undergraduate students in plasma experiments, instrumentation and analysis.
+        tracks: [science]
       - text: Built and validated plasma modeling tools (Python, C#, JavaScript) covering fluid dynamics, heat transfer and electromagnetic behavior to predict reactor regimes and speed up iteration.
         tracks: [engineering, data, science]
       - text: Lead hands-on experiments, systematically optimizing power, flow rates and catalysts with data-driven parameter studies.
@@ -96,6 +107,8 @@ experience:
     bullets:
       - text: Co-founded an industrial-automation and agentic-AI firm delivering control-system software, dashboards, custom web/mobile apps and technical consulting to clients nationwide.
         tracks: [data, engineering, science, fitness]
+      - text: Shipped three products — WaterLog DSR (in a client pilot), Adversaria ELN (an electronic lab notebook whose independent-researcher users report 15–25% faster discovery) and Chop Chop Go (a consumer app).
+        tracks: [data, engineering]
       - text: Architect production AI-integrated systems — multi-agent architectures, governed build/validation pipelines and automation tools for research and enterprise clients.
         tracks: [data, engineering]
       - text: Run DevOps and infrastructure, including a distributed Mac mini compute cluster, Git-based CI/CD and local AI compute environments.
@@ -114,7 +127,7 @@ experience:
     bullets:
       - text: Commissioned and optimized a pilot-scale test laboratory under DOE grant DE-FE0031581, evaluating Linde-BASF post-combustion CO₂-capture technology at a coal-fired power plant.
         tracks: [science, engineering, data]
-      - text: Diagnosed and repaired complex equipment failures and validated analytical methods to keep data accurate and the project on schedule.
+      - text: Led the team that diagnosed an instrument failure that had stalled the entire project, then repaired equipment and validated analytical methods to get data flowing again.
         tracks: [science, engineering]
       - text: Led a cross-functional team to steady-state operations, building custom software for data analysis and reporting aligned with real-time plant conditions.
         tracks: [engineering, data]
@@ -128,13 +141,13 @@ experience:
     end: Present
     tracks: [science, engineering, data]
     bullets:
-      - text: Built and deployed an enterprise multi-platform app (Flutter/Dart, Python, ML) for statewide water-treatment data capture, reporting and analysis — 50% faster site-visit reporting.
+      - text: Built and deployed IWT-DSR, a statewide multi-platform app (Flutter/Dart, Python, ML) used by six field chemists for several hundred reports a year — cutting time per site visit 25–50% and reporting time 50%+.
         tracks: [data, engineering]
       - text: Led a data-modernization initiative digitizing 50+ years of records (1970s–present) from handwritten, Word, Excel and PDF sources using AI-powered OCR and Python pipelines into a searchable research database.
         tracks: [data, engineering]
       - text: Engineered field solutions alongside mechanical and industrial engineers — custom sampling tools, sensor mounts, flow-control fixtures and automated data-logging rigs for high-pressure, high-flow systems.
         tracks: [engineering]
-      - text: Conduct field chemistry — sampling, on-site testing and treatment optimization — at government facilities including prisons, data centers and IDOT sites; hold Illinois DOC security clearance.
+      - text: Conduct field chemistry — sampling, on-site testing and treatment optimization — across 43+ water-treatment sites and facilities, including prisons, data centers and IDOT sites; hold Illinois DOC security clearance.
         tracks: [science, engineering]
       - text: Lead project manager for an operations overhaul; initiated and lead an internal R&D team for data tools, automation and applied chemistry.
         tracks: [science, engineering, data]
@@ -148,7 +161,7 @@ experience:
     bullets:
       - text: Founded and ran a personal training business centered on each client’s goals, “big” or “small.”
         tracks: [fitness]
-      - text: Coached clients of widely varied backgrounds, ages and fitness levels to measurable results with individualized programming.
+      - text: Coached clients aged 13 to 70+ with individualized programming — standout results include 30+ lb fat loss and 10–20 lb gains in muscle mass.
         tracks: [fitness]
       - text: Built my own Python workout-planning app to design client programs — my first software project.
         tracks: [fitness, data]
@@ -162,10 +175,14 @@ experience:
     bullets:
       - text: Expressed, purified and characterized mammalian cytochrome P450 enzymes and ran metabolism studies; synthesized and characterized sensitive lipid molecules.
         tracks: [science]
+      - text: Developed a chiral separation method for lipid enantiomers.
+        tracks: [science]
       - text: Analyzed biochemical data in Python and built automated workflows for synthesis characterization.
         tracks: [science, data]
       - text: Managed lab operations — instrument repair, student training and project management of the lab’s relocation from UIUC to Georgia Tech.
         tracks: [science, engineering]
+      - text: Repaired and rebuilt scientific instruments, from HPLC setups to mass spectrometers.
+        tracks: [engineering]
       - text: Co-authored peer-reviewed publications in Biochemistry and JCI Insight.
         tracks: [science, data]
 
@@ -220,7 +237,7 @@ publications:
     year: 2022
     url: https://pubmed.ncbi.nlm.nih.gov/35420999/
   - title: "Omega-3 Endocannabinoid Epoxide Enantiomers Formed by Human Cytochrome P450s Are Bioactive"
-    venue: Biochemistry (under review)
+    venue: Manuscript in preparation
 
 talks:
   - title: "From Concept to Deployment: Building a Custom Water Testing Application for IWT"
@@ -268,9 +285,9 @@ certifications:
   - { name: CPR & AED, org: ASTI, year: 2023–2025, tracks: [fitness] }
 
 athletics:
-  - { name: Brazilian jiu-jitsu, detail: "Purple belt under Jack McVicker; multiple competition medals, gi and no-gi — including IBJJF silver (gi, blue belt)" }
-  - { name: Spartan Race, detail: "Beast (2020), Sprint (2025)" }
-  - { name: Savage Race, detail: "1–2 races every year since 2019; 2024 Syndicate medal" }
+  - { name: Brazilian jiu-jitsu, detail: "Purple belt under Jack McVicker; medals at IBJJF, Fuji and American Grappling events, gi and no-gi — including IBJJF silver (gi, blue belt)" }
+  - { name: Spartan Race, detail: "Beast (2020) and Sprint (2025) finisher" }
+  - { name: Savage Race, detail: "A race every year since 2018; 2024 Syndicate medal" }
 
 organizations:
   - { name: Association of Water Technologies, role: Member, years: 2022 – present, tracks: [science, engineering] }
