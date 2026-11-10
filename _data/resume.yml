@@ -58,7 +58,7 @@ highlights:
   - { value: "43+", label: "water-treatment sites and facilities served in the field", views: [engineering] }
   - { value: "5%", label: "conversion gain from redesigning plasma reactors", views: [engineering] }
   - { value: "50 yrs", label: "of handwritten & legacy water records digitized into one database", views: [engineering] }
-  - { value: "Joule", label: "heating reactor & pulsed-power circuitry built for a national-lab collaboration", views: [engineering] }
+  - { value: "Joule", label: "heating reactor & pulsed-power circuitry built with a NETL (DOE national lab) group", views: [engineering] }
   # Data & software
   - { value: "50%+", label: "faster reporting with the statewide IWT-DSR app", views: [data] }
   - { value: "25–50%", label: "less time per site visit for six field chemists", views: [data] }
@@ -84,7 +84,7 @@ experience:
         tracks: [science]
       - text: Designed, built and tested multiple plasma reactors — geometry, catalyst integration and custom fixtures — with reactor-design changes raising conversion by 5%.
         tracks: [engineering]
-      - text: Engineered a Joule-heating reactor plus its timing circuits and pulsed power supplies for a national-lab collaboration, getting the system running so the science team could measure efficiencies.
+      - text: Engineered a Joule-heating reactor plus its timing circuits and pulsed power supplies for a collaboration with the National Energy Technology Laboratory (NETL), getting the system running so the science team could measure efficiencies.
         tracks: [engineering]
       - text: Developed C-SPARK, software for identifying plasma surface-chemistry reactions during exploratory analysis.
         tracks: [science, data]
