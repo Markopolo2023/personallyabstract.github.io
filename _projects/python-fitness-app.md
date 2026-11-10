@@ -5,7 +5,6 @@ description: "My first coding project: a basic Python workout planner for person
 date: 2025-08-15
 category: Software
 tags: [python, software, fitness, ai]
-pdf: /projects/project1/doc1.pdf
 repo: https://github.com/Markopolo2023/Basic-Python-Fitness-APP
 redirect_from: [/projects/project1/project1.html]
 order: 3

@@ -464,7 +464,12 @@ p { margin: 0 0 1em; }
 [data-filter="engineering"] [data-view="engineering"],
 [data-filter="data"] [data-view="data"],
 [data-filter="fitness"] [data-view="fitness"] { display: block; }
-[data-filter="all"] .hl-extra { display: none; }
+/* highlights: shown only in the views they're tagged for */
+[data-filter="all"] .highlight:not([data-hl~="all"]),
+[data-filter="science"] .highlight:not([data-hl~="science"]),
+[data-filter="engineering"] .highlight:not([data-hl~="engineering"]),
+[data-filter="data"] .highlight:not([data-hl~="data"]),
+[data-filter="fitness"] .highlight:not([data-hl~="fitness"]) { display: none; }
 
 /* Guard against decorative elements causing sideways scroll on small phones */
 .hero { overflow-x: clip; }

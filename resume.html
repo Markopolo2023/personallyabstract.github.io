@@ -39,7 +39,7 @@ hide_title: true
         {%- endfor %}
         <div class="highlights">
           {%- for h in r.highlights %}
-          <div class="highlight{% if forloop.index > 3 %} hl-extra{% endif %}" data-tracks="{{ h.tracks | join: ' ' }}"><strong>{{ h.value }}</strong><span>{{ h.label }}</span></div>
+          <div class="highlight" data-hl="{{ h.views | join: ' ' }}"><strong>{{ h.value }}</strong><span>{{ h.label }}</span></div>
           {%- endfor %}
         </div>
       </section>

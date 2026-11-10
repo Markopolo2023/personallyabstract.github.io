@@ -6,7 +6,6 @@ date: 2025-08-20
 category: DIY Build
 tags: [diy, sauna, wellness]
 image: /assets/img/projects/scrap-wood-sauna/cover.jpg
-pdf: /projects/project2/doc2.pdf
 redirect_from: [/projects/project2/project2.html]
 order: 1
 ---

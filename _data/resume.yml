@@ -44,14 +44,28 @@ views:
       trainer, purple belt in Brazilian jiu-jitsu and obstacle-course racer.
 
 highlights:
-  - { value: "10+", label: "years in research & applied science", tracks: [science, engineering, data] }
-  - { value: "50%", label: "faster statewide site-visit reporting", tracks: [data, engineering] }
-  - { value: "50 yrs", label: "of water-treatment records digitized", tracks: [data, science] }
-  - { value: "DOE", label: "funded CO₂-capture pilot lab commissioned", tracks: [science, engineering] }
-  - { value: "3", label: "peer-reviewed publications", tracks: [science] }
-  - { value: "7 yrs", label: "running a personal training business", tracks: [fitness] }
-  - { value: "Purple", label: "belt — Brazilian jiu-jitsu", tracks: [fitness] }
-  - { value: "2025", label: "co-founded Epistemion LLC", tracks: [data, engineering, fitness] }
+  # `views` = exactly which résumé views show this stat ("all" = the Everything view).
+  # General
+  - { value: "10+", label: "years across research, engineering and software", views: [all] }
+  - { value: "2025", label: "co-founded Epistemion, an automation & agentic-AI firm", views: [all, data] }
+  - { value: "7", label: "publications & talks, from Biochemistry to AI for water", views: [all] }
+  # Science
+  - { value: "3", label: "peer-reviewed papers (Biochemistry, JCI Insight)", views: [science] }
+  - { value: "DOE", label: "funded CO₂-capture pilot lab commissioned at a power plant", views: [science, engineering] }
+  - { value: "5+", label: "instrument platforms run & repaired — HPLC, GC-MS, LC-MS, UV-Vis, IRMS", views: [science] }
+  # Engineering
+  - { value: "50 yrs", label: "of handwritten & legacy water records digitized into one database", views: [engineering] }
+  - { value: "Novel", label: "plasma reactors designed, built and modeled for CO₂ utilization", views: [engineering] }
+  - { value: "1", label: "full lab relocation managed, UIUC → Georgia Tech", views: [engineering] }
+  # Data & software
+  - { value: "50%", label: "faster statewide site-visit reporting with a custom Flutter app", views: [data] }
+  - { value: "4-part", label: "“AI for Water Intelligence” series taught to Water Survey colleagues", views: [data] }
+  - { value: "Multi-agent", label: "AI systems with governed build & validation pipelines", views: [data] }
+  # Fitness
+  - { value: "7 yrs", label: "running a personal training business (2019–2026)", views: [fitness] }
+  - { value: "Purple", label: "belt in Brazilian jiu-jitsu", views: [fitness] }
+  - { value: "IBJJF", label: "silver medal, gi (blue belt)", views: [fitness] }
+  - { value: "Beast", label: "Spartan Race finisher, plus yearly Savage Races", views: [fitness] }
 
 experience:
   - title: Plasma Chemistry Research Supervisor & Strategic Partner
@@ -117,7 +131,7 @@ experience:
       - text: Built and deployed an enterprise multi-platform app (Flutter/Dart, Python, ML) for statewide water-treatment data capture, reporting and analysis — 50% faster site-visit reporting.
         tracks: [data, engineering]
       - text: Led a data-modernization initiative digitizing 50+ years of records (1970s–present) from handwritten, Word, Excel and PDF sources using AI-powered OCR and Python pipelines into a searchable research database.
-        tracks: [data, science]
+        tracks: [data, engineering]
       - text: Engineered field solutions alongside mechanical and industrial engineers — custom sampling tools, sensor mounts, flow-control fixtures and automated data-logging rigs for high-pressure, high-flow systems.
         tracks: [engineering]
       - text: Conduct field chemistry — sampling, on-site testing and treatment optimization — at government facilities including prisons, data centers and IDOT sites; hold Illinois DOC security clearance.

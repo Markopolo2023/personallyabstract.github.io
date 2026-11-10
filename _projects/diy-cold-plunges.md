@@ -6,7 +6,6 @@ date: 2025-09-08
 category: DIY Build
 tags: [diy, cold-plunge, wellness]
 image: /assets/img/projects/diy-cold-plunges/cover.jpg
-pdf: /projects/project3/doc3.pdf
 redirect_from: [/projects/project3/project3.html]
 order: 2
 ---
